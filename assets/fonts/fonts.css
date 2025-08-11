@@ -1,0 +1,214 @@
+
+/* Roboto Static Fonts */
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-style: normal;
+  src:
+      url('roboto/Roboto-Regular-subset.woff2') format('woff2'),
+      url('roboto/Roboto-Regular-subset.woff') format('woff');
+  font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-style: normal;
+      src:
+      url('roboto/Roboto-Bold-subset.woff2') format('woff2'),
+      url('roboto/Roboto-Bold-subset.woff') format('woff');
+      font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+    src:
+    url('roboto/Roboto-Light-subset.woff2') format('woff2'),
+    url('roboto/Roboto-Light-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    src:
+    url('roboto/Roboto-Medium-subset.woff2') format('woff2'),
+    url('roboto/Roboto-Medium-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    src:
+    url('roboto/Roboto-Black-subset.woff2') format('woff2'),
+    url('roboto/Roboto-Black-subset.woff') format('woff');
+    font-display: swap;
+}
+
+/* Gordita Static Fonts */
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url('gordita/Gordita-regular-subset.woff2') format('woff2'),
+        url('gordita/Gordita-regular-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: normal;
+    font-style: italic;
+    src:
+        url('gordita/Gordita-regular-italic-subset.woff2') format('woff2'),
+        url('gordita/Gordita-regular-italic-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: bold;
+    font-style: normal;
+    src:
+        url('gordita/Gordita-bold-subset.woff2') format('woff2'),
+        url('gordita/Gordita-bold-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: bold;
+    font-style: italic;
+    src:
+        url('gordita/Gordita-bold-italic-subset.woff2') format('woff2'),
+        url('gordita/Gordita-bold-italic-subset.woff') format('woff');
+    font-display: swap;
+}
+
+/* Extra weights & variants */
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 100;
+    font-style: regular;
+    src:
+        url('gordita/Gordita-thin-subset.woff2') format('woff2'),
+        url('gordita/Gordita-thin-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 100;
+    font-style: italic;
+    src:
+        url('gordita/Gordita-thin-italic-subset.woff2') format('woff2'),
+        url('gordita/Gordita-thin-italic-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 200;
+    font-style: regular;
+    src:
+        url('gordita/Gordita-light-subset.woff2') format('woff2'),
+        url('gordita/Gordita-light-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 200;
+    font-style: italic;
+    src:
+        url('gordita/Gordita-light-italic-subset.woff2') format('woff2'),
+        url('gordita/Gordita-light-italic-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 500;
+    font-style: regular;
+    src:
+        url('gordita/Gordita-medium-subset.woff2') format('woff2'),
+        url('gordita/Gordita-medium-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 500;
+    font-style: italic;
+    src:
+        url('gordita/Gordita-medium-italic-subset.woff2') format('woff2'),
+        url('gordita/Gordita-medium-italic-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 800;
+    font-style: regular;
+    src:
+        url('gordita/Gordita-black-subset.woff2') format('woff2'),
+        url('gordita/Gordita-black-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 800;
+    font-style: italic;
+    src:
+        url('gordita/Gordita-black-italic-subset.woff2') format('woff2'),
+        url('gordita/Gordita-black-italic-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 900;
+    font-style: regular;
+    src:
+        url('gordita/Gordita-ultra-subset.woff2') format('woff2'),
+        url('gordita/Gordita-ultra-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    font-weight: 900;
+    font-style: italic;
+    src:
+        url('gordita/Gordita-ultra-italic-subset.woff2') format('woff2'),
+        url('gordita/Gordita-ultra-italic-subset.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+	font-family: "Gordita Fallback";
+	src: local("Arial"), local("Helvetica Neue");
+	size-adjust: 111.275%;
+  ascent-override: 115%;
+  descent-override: 31%;
+  line-gap-override: 0%;
+}
+@font-face {
+	font-family: "Gordita Fallback Android";
+	src: local("Roboto");
+	size-adjust: 111.275%;
+  ascent-override: 115%;
+  descent-override: 31%;
+  line-gap-override: 0%;
+}
+
