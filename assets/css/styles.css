@@ -1,0 +1,32 @@
+
+
+body {
+  font-family: "Gordita", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detail-element {
+  margin-bottom: .5em
+}
+
+.detail-element-label {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.15;
+}
+.detail-element-label::after {
+  content: ":";
+}
+.detail-element-value {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.15;
+}
+
+.detail-element.display-multiline .detail-element-label {
+  display: block;
+}
+.detail-element.display-multiline .detail-element-value {
+  display: block;
+  margin-left: 1em;
+}
