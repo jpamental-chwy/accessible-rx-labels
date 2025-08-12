@@ -1,0 +1,20 @@
+[
+  {"prescription_id": "DG113602600"},
+  {"patient": "Theodore -Teddy-Littlest Bear-Face Supreme [FE]"},
+  {"item_description": "Enalapril/Furosemide/Pimobendan Oral LQ,5/12.5/2.5mg/mL,30mL"},
+  {"manufacturer": "Boehringer Ingelheim Animal Health USA Inc."},
+  {"instructions": "Give 1 capsule by mouth about 3 days weekly. Modified cyclosporine (Atopica, Cyclavance, Sporimmune, generic) can help manage itch and skin inflammation in allergic cats. It is an immunosuppressant that disrupts T cell function, with side effect that include vomiting, diarrhea, viral warts, gum changes, and immunosuppressive effects. Modified cyclosporine requires 3 plus weeks to take effect and is best suited for long-term administration in more severely affected cats. Blood work is recommended for patients receiving long-term modified cyclosporine."},
+  {"client": "Sarah McEachern-Goldstein-Smithson"},
+  {"prescriber": "Dr. Julia Rose Steffy-Dagnino De Pigeon IV"},
+  {"pharmacist": "Dr. Jason Mark Pamental-Sadecki III"},
+  {"pill_description": {
+    "color": "WHITE (Clear Colorless Solution)",
+    "shape": "OVAL (Oblong-shaped, Biconvex)",
+    "details": "MINOCYCLINE;100;DAN;5695"
+  }},
+  {"refills": 800},
+  {"quantity": 100},
+  {"use_before": "2024-09-20"},
+  {"refill_by": "2024-08-29"},
+  {"filled_on": "2023-01-01"}
+]
