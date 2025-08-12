@@ -1,11 +1,63 @@
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-footer-width-max: 70rem;
+  --content-width-max: 60rem;
+  --chirp-logos-health-primary: #002957;
+  --chirp-logos-health-accent: #ffffff;
+  --ui-bg-primary: #ffffff;
+  --text-primary: #000000
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --chirp-logos-health-primary: #ffffff;
+    --chirp-logos-health-accent: #002957;
+    --ui-bg-primary: #000000;
+    --text-primary: #ffffff;
+  }
+}
 
 body {
   font-family: "Gordita", Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text-primary);
+  background-color: var(--ui-bg-primary);
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  max-width: min(94vw, var(--header-footer-width-max));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+main {
+  max-width: min(94vw, var(--content-width-max));
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+}
+footer {
+  max-width: min(94vw, var(--header-footer-width-max));
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem
+}
+
+h1 {
+  2.5em;
+  font-weight: 500
 }
 
 .detail-element {
-  margin-bottom: .5em
+  margin-bottom: .75em
 }
 
 .detail-element-label {
@@ -13,6 +65,8 @@ body {
   font-weight: 500;
   font-size: 1em;
   line-height: 1.15;
+  margin: 0;
+  padding: 0;
 }
 .detail-element-label::after {
   content: ":";
@@ -23,10 +77,39 @@ body {
   line-height: 1.15;
 }
 
+.logo {
+  width: 15rem;
+  height: auto;
+}
+
 .detail-element.display-multiline .detail-element-label {
   display: block;
 }
 .detail-element.display-multiline .detail-element-value {
   display: block;
   margin-left: 1em;
+}
+
+
+
+@media print {
+  :root {
+    --header-footer-width-max: 95%;
+  }
+}
+@media print {
+  body {
+    font-size: 12pt;
+  }
+  footer {
+    font-size: 10pt;
+  }
+  header, footer {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  main {
+    max-width: 90%;
+  }
 }
