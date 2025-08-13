@@ -11,7 +11,12 @@
   --chirp-logos-health-primary: #002957;
   --chirp-logos-health-accent: #ffffff;
   --ui-bg-primary: #ffffff;
-  --text-primary: #000000
+  --text-primary: #000000;
+  --link-standard: #1c49c2;
+  --link-hover: #09267a;
+  --link-focus: #09267a;
+  --link-active: #002957;
+  --link-visited: #1c49c2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +25,11 @@
     --chirp-logos-health-accent: #002957;
     --ui-bg-primary: #000000;
     --text-primary: #ffffff;
+    --link-standard: #b8d7f3;
+    --link-hover: #7aaee7;
+    --link-focus: #7aaee7;
+    --link-active: #7aaee7;
+    --link-visited: #b8d7f3;
   }
 }
 
@@ -48,13 +58,39 @@ footer {
   max-width: min(94vw, var(--header-footer-width-max));
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 h1 {
-  2.5em;
-  font-weight: 500
+  font-size: 2.5em;
+  font-weight: 500;
 }
+
+a:link {
+  color: var(--link-standard);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+a:focus {
+  color: var(--link-focus);
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--link-active);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--link-visited);
+  text-decoration: underline;
+}
+
 
 .detail-element {
   margin-bottom: .75em
